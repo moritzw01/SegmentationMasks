@@ -21,5 +21,7 @@ def inference(js_file, model_checkpoint='<path/to/checkpoint>', model_type='',):
                     , 'pred_boxes': pred['pred_boxes']
                     , 'pred_box_scores': pred['pred_boxes']
                     })
+    
+    return res 
 
 
